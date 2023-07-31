@@ -1,0 +1,81 @@
+.fundo-tribunal {
+  background-image: url(../../../assets/Fachada-Palacio-TJ_Desktop.jpg);
+  background-position: right center;
+  height: 85vh;
+}
+
+.fundo-escuro {
+  background-color: rgb(48, 47, 47);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px #00000069;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-escuro {
+  background-color: #4d4b4b;
+}
+
+.bg-dourado {
+  background-color: #a59373;
+}
+
+.tamanho-titulo {
+  font-size: 80px;
+}
+
+.tamanho-sub {
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: #a69374;
+}
+
+@media (max-width: 768px) {
+  .fundo-tribunal {
+    background-image: url(../../../assets/Fachada-Palacio-TJ_Tablet.jpg);
+    background-position: center center;
+    height: 85vh;
+  }
+
+  .fundo-escuro {
+    background-color: #302f2f;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #00000069;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .tamanho-titulo {
+    font-size: 64px;
+  }
+
+  .tamanho-sub {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fundo-tribunal {
+    background-image: url(../../../assets/Fachada-Palacio-TJ_Celular.jpg);
+    background-position: center center;
+    height: 55vh;
+  }
+
+  .fundo-escuro {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000069;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .tamanho-titulo {
+    font-size: 64px;
+  }
+
+  .tamanho-sub {
+    font-size: 24px;
+  }
+}
